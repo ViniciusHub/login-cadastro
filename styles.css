@@ -1,0 +1,84 @@
+html {
+
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container {
+
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+
+.content div form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content,
+.content * {
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="submit"] {
+    background: #0664d4;
+    border: none;
+    color: white;
+    padding: 10px 100px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: block;
+}
+
+div#cadastro form>*,
+div#login form>* {
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+p>label {
+    font-size: 16px;
+}
+
+form p>input[type="text"],
+form p>input[type="password"],
+form p>input[type="email"] {
+    outline: none;
+    padding: 10px 38px;
+    min-width: 280px;
+    min-height: 40px;
+    box-sizing: border-box;
+}
+
+
+div#login,
+div#cadastro {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border: 1px solid black;
+}
